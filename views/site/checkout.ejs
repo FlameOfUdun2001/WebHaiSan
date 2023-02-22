@@ -1,0 +1,103 @@
+<% include layout/header.ejs %>
+  <!-- Header End -->
+
+  <div id="maincontainer">
+    <section id="product">
+      <div class="container">
+        <!--  breadcrumb -->
+        <ul class="breadcrumb">
+          <li>
+            <a href="/" style="color:rgb(46, 28, 126);">Trang chủ/ Thanh toán</a>
+          </li>
+        </ul>
+        <!-- Contact Us-->
+        <h1 class="heading1"><span class="maintext" style="color:rgb(42, 36, 149);">THANH TOÁN</span></h1>
+        <div class="row">
+          <% if(response_message !='' ){ %>
+            <div class="alert alert-success">
+              <%= response_message%>
+            </div>
+            <% } %>
+              <% if(errors) { %>
+                <div class="alert alert-danger">
+                  <% errors.forEach(function(e){ %>
+                    <%= e.msg %> <br />
+                      <%});%>
+                </div>
+                <% };%>
+                  <div class="span9">
+                    <form class="form-horizontal " action="" method="post" style="margin-left: 180px;">
+                      <fieldset>
+
+                        <!-- Name -->
+                        <div class="control-group">
+                          <label for="name" class="groupName">Họ Và Tên *</label>
+                          <input type="text" class="form-control required" id="name" name="name" placeholder="Tên Khách Hàng"
+                            required
+                            style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="control-group">
+                          <label for="email" class="groupName">Email *</label>
+                          <input type="email" class="form-control required" id="email" name="email" placeholder="Email"
+                            required
+                            style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="control-group">
+                          <label for="email" class="groupName">Số Điện Thoại *</label>
+
+                          <input type="text" class="form-control required" id="phone" name="phone" placeholder="Số Điện Thoại"
+                            required
+                            style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                        </div>
+
+                        <!-- Mess -->
+                        <div class="control-group">
+                          <label for="email" class="groupName">Lời nhắn *</label>
+                          <textarea class="form-control" id="message" name="message" rows="10"></textarea>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="control-group">
+                          <label for="email" class="groupName">Địa Chỉ Giao Hàng *</label>
+
+                          <input type="text" class="form-control required" id="ship" name="ship" placeholder="Địa Chỉ"
+                            required
+                            style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                        </div>
+
+                        <!-- Phương thức thanh toán -->
+                        <div class="control-group">
+                          <label for="email" class="groupName">Phương Thức Thanh Toán *</label>
+                          <select class="form-control" id="payment" name="payment">
+                            <option value="TM">Tiền Mặt</option>
+                            <option value="ATM">Chuyển Khoản</a></option>
+                          </select>
+                        </div>
+
+                        <div class="control-group" style="background-color: white;">
+                          <input class="btn btn-orange" style="background-color: rgb(40, 32, 127);" type="submit"
+                            value="Đặt hàng" id="submit_id" onclick="myFunction()">
+                          <!-- <input class="btn" style="background-color: darkgray;" type="reset" value="Reset"> -->
+                          <a href="/gio-hang.html" class="btn btn-orange pull-right"
+                            style="background-color: rgb(44, 36, 131);" Style="float:left; margin-right:2px;">Tiếp tục
+                            mua hàng</a>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <!-- Sidebar Start-->
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+    function myFunction() {
+      alert("Bạn đã đặt hàng thành công !");
+    }
+  </script>
+  <!-- Footer -->
+  <% include layout/footer.ejs %>

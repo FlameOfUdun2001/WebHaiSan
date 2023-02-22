@@ -1,0 +1,125 @@
+<% include layout/header.ejs %>
+  <!-- Header End -->
+
+  <div id="maincontainer">
+    <section id="product">
+      <div class="container">
+        <!--  breadcrumb -->
+        <ul class="breadcrumb">
+          <li>
+            <a href="#" style="color: rgb(39, 34, 143);">Trang Chủ/ Đăng Ký Tài Khoản</a>
+
+          </li>
+
+        </ul>
+        <!-- Contact Us-->
+        <h1 class="heading1"><span class="maintext" style="color:rgb(42, 20, 121);">ĐĂNG KÝ</span></h1>
+        <div class="row">
+          <% if(response_message !='' ){ %>
+            <div class="alert alert-success">
+              <%= response_message%>
+            </div>
+            <% } %>
+              <div class="alert alert-danger" style="display: none;"></div>
+              <div class="span9">
+                <!-- <form action="#" method="post"> -->
+                <fieldset style="margin-left: 350px;">
+                  <!-- Fullname -->
+                  <div class="control-group">
+                    <label for="fullname" class="groupName">Họ và Tên *</label>
+                    <input type="text" class="form-control required" id="fullname" name="fullname"
+                      placeholder="Họ và Tên" required
+                      style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                  </div>
+                  <!-- Password -->
+                  <div class="control-group">
+                    <label for="password" class="groupName">Mật Khẩu *</label>
+                    <input type="password" class="form-control required" id="password" name="password"
+                      placeholder="Mật Khẩu" required
+                      style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                  </div>
+                  <!-- Confirm Password -->
+                  <div class="control-group">
+                    <label for="repassword" class="groupName">Nhập Lại Mật Khẩu *</label>
+                    <input type="password" class="form-control required" id="repassword" name="repassword"
+                      placeholder="Nhập Lại Mật Khẩu" required
+                      style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                  </div>
+                  <!-- Email -->
+                  <div class="control-group">
+                    <label for="email" class="groupName">Email *</label>
+                    <input type="email" class="form-control required" id="email" name="email" placeholder="Email"
+                      required
+                      style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                  </div>
+                  <!-- Phone -->
+                  <div class="control-group">
+                    <label for="phone" class="groupName">Số Điện Thoại *</label>
+                    <input type="text" class="form-control required" id="phone" name="phone" placeholder="Số Điện Thoại"
+                      required
+                      style="height: 38px;padding: 0.375rem 0.75rem;font-size: 22px;border-radius: 0.25rem;border: 1px solid #ced4da;color: #495057;">
+                  </div>
+
+                  <div class="control-group" style="background-color: white;">
+                    <input type="submit" value="Đăng ký" style="background-color: rgb(136, 113, 248);"
+                      class="btn btn-orange" id="register_id" onclick="onSubmit(); myFunction();">
+                    <!-- <input class="btn" type="reset" value="Reset"> -->
+                  </div>
+                </fieldset>
+                <!-- </form> -->
+              </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- chưa hiểu-->
+  <script>
+    function myFunction() {
+      alert("Bạn đã đăng ký tài khoản thành công !");
+      location.href = "http://localhost:3000/dang-nhap.html";
+    }
+  </script>
+  <script type="text/javascript">
+    function onSubmit() {
+      var postData = {
+        fullname: $('#fullname').val(),
+        email: $('#email').val(),
+        password: $('#password').val(),
+        repassword: $('#repassword').val(),
+        phone: $('#phone').val()
+      };
+
+      $.ajax(
+        {
+          type: 'POST',
+          url: 'http://localhost:3000/dang-ky.html',
+          data: postData,
+          success: function (response) {
+            $('.alert-danger').empty();
+
+            var bHasError = false;
+
+            if (response) {
+              if (response.isSucceed === true) {
+                window.location.href = 'http://localhost:3000';
+              }
+              else if (response.errors) {
+                for (var x of response.errors) {
+                  $('.alert-danger').append(`<label>${x.msg}</label>`);
+                }
+
+                bHasError = true;
+              }
+            }
+
+            if (bHasError === true) {
+              $('.alert-danger').show();
+            }
+          }
+        }
+      );
+    }
+  </script>
+
+  <!-- Footer -->
+  <% include layout/footer.ejs %>

@@ -1,0 +1,74 @@
+<% include ../layout/header.ejs %>
+    <!-- END TOPBAR -->
+    <!-- START CONTAINER -->
+    <div class="page-container row-fluid container-fluid">
+        <!-- SIDEBAR - START -->
+        <% include ../layout/menu.ejs %>
+            <!--  SIDEBAR - END -->
+            <!-- START CONTENT -->
+            <section id="main-content" class=" ">
+                <section class="wrapper main-wrapper row" style=''>
+                    <div class='col-xs-12'>
+                        <div class="page-title">
+                            <div class="pull-left">
+                                <h1 class="title">Danh Sách Danh Mục Sản Phẩm</h1>
+                            </div>
+                            <div class="pull-right hidden-xs"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12">
+                        <section class="box ">
+                            <div class="content-body" style="padding-top: 20px;">
+                                <div class="row">
+                                    <% if(response_message !=null){ %>
+                                        <div class="alert alert-success">
+                                            <%= response_message%>
+                                        </div>
+                                        <% } %>
+                                            <div class="col-xs-12">
+                                                <!-- ********************************************** -->
+                                                <table id="example" class="display table table-hover table-condensed">
+                                                    <thead>
+                                                        <tr style="font-size: 20px;">
+                                                            <th>ID</th>
+                                                            <th>Tên Danh Mục</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <% var id=0 %>
+                                                            <% data.forEach(function(item){ id ++%>
+                                                                <tr style="font-size: 20px;">
+                                                                    <td>
+                                                                        <%= id%>
+                                                                    </td>
+                                                                    <td>
+                                                                        <%= item.name%>
+                                                                    </td>
+
+                                                                    <td>
+                                                                        <a href="/admin/category/xoa/<%= item.id %>"
+                                                                            onclick="return confirm('Bạn có muốn xóa danh mục sản phẩm này không ?')">
+                                                                            <i class="fa fa-trash" aria-hidden="true" style="font-size: 20px;"></i>
+                                                                        </a> |
+                                                                        <a href="/admin/category/sua/<%= item.id %>.html">
+                                                                            <i class="fa-solid fa-pen-to-square"></i>
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            <%})%>
+                                                    </tbody>
+                                                </table>
+                                                <!-- ********************************************** -->
+                                            </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </section>
+            <!-- END CONTENT -->
+            <div class="chatapi-windows "></div>
+    </div>
+<% include ../layout/footer.ejs %>
