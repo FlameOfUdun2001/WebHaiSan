@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "60799dc7c2c96719708b475f"
+  },
+  "id": 8,
+  "name": "Cáp Sạc",
+  "urlRewriteName": "cap-sac",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63831e57813b9a3a34c7ec7b"
+  },
+  "id": 17,
+  "name": "Ốp Điện Thoại",
+  "urlRewriteName": "op-dien-thoai",
+  "isDeleted": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384c9e6cb78bc10847a6130"
+  },
+  "id": 19,
+  "name": "Ốp Lưng, Bao Da",
+  "urlRewriteName": "op-lung,-bao-da",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384c9ffcb78bc10847a6131"
+  },
+  "id": 20,
+  "name": "Dán Màn Hình",
+  "urlRewriteName": "dan-man-hinh",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384ca12cb78bc10847a6132"
+  },
+  "id": 21,
+  "name": "Sạc Dự Phòng",
+  "urlRewriteName": "sac-du-phong",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384ca24cb78bc10847a6133"
+  },
+  "id": 22,
+  "name": "Thẻ Nhớ",
+  "urlRewriteName": "the-nho",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384ca66cb78bc10847a6134"
+  },
+  "id": 23,
+  "name": "Củ Sạc",
+  "urlRewriteName": "cu-sac",
+  "isDeleted": false,
+  "__v": 0
+}]

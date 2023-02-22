@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "6384d410cb78bc10847a6149"
+  },
+  "id": 61,
+  "name": "Vũ Tú Trân",
+  "email": "vututran@gmail.com",
+  "phone": "0629381758",
+  "msg": "Giao hàng giờ hành chính. ",
+  "total": 712000,
+  "status": 1,
+  "ship": "Số 93 ngõ 460 Khương Đình - Thanh Xuân",
+  "payment": "TM",
+  "isDeleted": false,
+  "details": [
+    {
+      "price": 320000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669647993127_sanpham6.jpg",
+        "salePrice": 320000,
+        "isDeleted": false,
+        "sale": 20,
+        "price": 400000,
+        "description": "Ốp lưng iPhone 14 Pro Max ZAGG MagSafe Hampton Snap mua tại Di Động Việt được đảm bảo là hàng chính hãng 100%. Bảo hành 12 tháng. Đồng thời, khi quý khách mua hàng sẽ hưởng nhiều ưu đãi,khuyến mãi hấp dẫn khác.\r\n\r\nỐp lưng iPhone 14 Pro Max ZAGG MagSafe Hampton Snap thiết kế mỏng nhẹ thông minh, chống sốc lên đến 1.5m, hoàn thiện nhám mờ, viền đen tránh tình trạng ố vàng tốt. Ốp được phủ một lớp kháng khuẩn, tránh tình trạng mùi hôi khó chịu từ các tác nhân bên ngoài.",
+        "categoryId": 19,
+        "urlRewriteName": "op-lung-iphone-14-pro-max-zagg-magsafe-hampton-snap",
+        "name": "Ốp lưng iPhone 14 Pro Max ZAGG MagSafe Hampton Snap",
+        "id": 135,
+        "_id": "6384ce79cb78bc10847a613a"
+      }
+    },
+    {
+      "price": 392000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669648680500_sanpham13.jpg",
+        "salePrice": 392000,
+        "isDeleted": false,
+        "sale": 20,
+        "price": 490000,
+        "description": "Pin dự phòng Aukey Basix Slim 10000MAH PB-N99 – Sạc nhanh tiện lợi\r\nSạc dự phòng là thiết phụ quan trọng giúp bổ sung năng lượng cho một thiết bị nhanh chóng, nếu bạn đang tìm kiếm mẫu pin dự phòng hỗ trợ sạc nhanh hãy tham khảo ngay pin dự phòng Aukey Basix Slim 10000MAH PB-N99.\r\n\r\nThiết kế nhỏ gọn, pin dung lượng lớn\r\nPin dự phòng Aukey Basix Slim 10000 mah PB-N99 sở hữu một thiết kế nhỏ nhắn với trọng lượng khá nhẹ, nhờ đó người dùng có thể dễ dàng mang theo khi công tác, du lịch.",
+        "categoryId": 21,
+        "urlRewriteName": "pin-sac-du-phong-aukey-basix-slim-pb-n99-10000mah",
+        "name": "Pin sạc dự phòng Aukey Basix Slim PB N99 10000mAh",
+        "id": 142,
+        "_id": "6384d128cb78bc10847a6141"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384d4aecb78bc10847a614a"
+  },
+  "id": 62,
+  "name": "Doãn Mai Trang",
+  "email": "doanxtrang.2001@gmail.com",
+  "phone": "0482749183",
+  "msg": "Vui lòng shop giao hàng vào 9h sáng ngày 30/11",
+  "total": 450000,
+  "status": 2,
+  "ship": "Số 33, Đại Cồ Việt, Hà Bà Trưng, Hà Nội",
+  "payment": "TM",
+  "isDeleted": false,
+  "details": [
+    {
+      "price": 450000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669649247077_sanpham20.jpg",
+        "salePrice": 450000,
+        "isDeleted": false,
+        "sale": 10,
+        "price": 500000,
+        "description": "Sạc không dây Energizer MagPAD WCP119BK– An toàn, sạc nhanh, siêu mỏng\r\nEnergizer ra mắt mắt sản phẩm sạc không dây Energizer MagPAD WCP119BKsiêu mỏng, tốc độ sạc nhanh, kèm theo chế độ phát hiện vật thể lạ, chống cháy nổ, an toàn. Đây là một sản phẩm không thể bỏ lỡ dành cho các tín độ của công nghệ thông minh.\r\n\r\nCông suất 15W hỗ trợ sạc nhanh, chuẩn Qi\r\nNhu cầu sử dụng thiết bị di động hiện nay ngày càng tăng cao, tần suất dùng điện thoại ngày càng nhiều. Energizer nắm bắt được xu hướng đó, đã tinh tế ra mắt miếng sạc không dây Energizer MagPAD WCP119BK với công suất tối đa 15W hỗ trợ sạc nhanh, tương thích sạc không dây chuẩn Qi chuẩn hóa mọi thiết bị từ Samsung, Android, Huawei,....",
+        "categoryId": 23,
+        "urlRewriteName": "sac-khong-day-energizer-magpad-wcp119bk",
+        "name": "Sạc không dây Energizer MagPAD WCP119BK",
+        "id": 149,
+        "_id": "6384d35fcb78bc10847a6148"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384d523cb78bc10847a614b"
+  },
+  "id": 63,
+  "name": "Ngô Văn Huy",
+  "email": "ngo.huy.van.2001@gmail.com",
+  "phone": "0868761196",
+  "msg": "Giao hàng giờ hành chính",
+  "total": 1585500,
+  "status": 1,
+  "ship": "Tổ 6, số 44, phường Phú Đô, quận Nam Từ Liêm, Hà Nội",
+  "payment": "TM",
+  "isDeleted": false,
+  "details": [
+    {
+      "price": 320000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669647428707_sanpham2.png",
+        "salePrice": 320000,
+        "isDeleted": false,
+        "sale": 20,
+        "price": 400000,
+        "description": "Cáp Type C to Lightning Anker PowerLine III 0.9M (A8832) có thiết kế thông minh, dài đến 0.9m kết nối ở khoảng cách xa hơn, tốt hơn. Cáp Anker PowerLine III A8832 là phụ kiện không thể thiếu khi dùng điện thoại.",
+        "categoryId": 8,
+        "urlRewriteName": "cap-type-c-to-lightning-anker-powerline-iii-0-9m-(a8832)",
+        "name": "Cáp Type C to Lightning Anker PowerLine III 0.9M (A8832)",
+        "id": 131,
+        "_id": "6384cc44cb78bc10847a6136"
+      }
+    },
+    {
+      "price": 313500,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669648981150_sanpham17.jpg",
+        "salePrice": 313500,
+        "isDeleted": false,
+        "sale": 5,
+        "price": 330000,
+        "description": "Thẻ nhớ Samsung MicroSDXC Evo Plus 64GB\r\nNgày nay, người dùng chụp ảnh, quay phim và chơi game trên thiết bị di động (điện thoại, máy tính bảng, laptop) nhiều hơn, nhưng bộ nhớ trong của thiết bị không phải lúc nào cũng được nhà sản xuất trang bị đủ lớn để đáp ứng. Chính vì vậy, việc mua một chiếc thẻ nhớ Samsung MicroSDXC Evo Plus 64GB với dung lượng cao mà giá bán lại rất vừa phải chính là giải pháp hợp lý.\r\n\r\nDung lượng lưu trữ lớn \r\nThẻ nhớ Samsung MicroSDXC Evo Plus 64GB có dung lượng 64GB, giúp người dùng lưu trữ được nhiều tài liệu công việc, chụp nhiều hình ảnh, quay nhiều video, tải nhiều bộ phim Full HD và cài đặt nhiều game nặng yêu cầu đồ hoạ 3D cao, qua đó giải phóng bộ nhớ trong, tránh tình trạng đầy bộ nhớ ảnh hưởng đến hiệu suất hoạt động.",
+        "categoryId": 22,
+        "urlRewriteName": "the-nho-samsung-64gb-100mbs",
+        "name": "Thẻ nhớ Samsung 64GB 100Mbs",
+        "id": 146,
+        "_id": "6384d255cb78bc10847a6145"
+      }
+    },
+    {
+      "price": 952000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669649191035_sanpham19.png",
+        "salePrice": 952000,
+        "isDeleted": false,
+        "sale": 20,
+        "price": 1190000,
+        "description": "Củ sạc Type C Samsung T4510 45W -Hiệu suất sạc cao\r\nCủ sạc Type C Samsung T4510 45W có kèm cáp là củ sạc được mong đợi nhất trong thời điểm hiện tại. Bởi đây chính là phiên bản sạc dành cho mẫu điện thoại Samsung Galaxy S22 Ultra cực hot gần đây. Hãy xem điểm đặc biệt của củ sạc này là gì nhé!\r\n\r\nMàu đen sang trọng, độ dài hợp lý\r\nCủ sạc nhanh Type C Samsung T4510 sở hữu thiết kế khoa học, chỉ chu và được chế tạo tỉ mỉ xứng tầm đẳng cấp. Màu sắc trang bị là một màu đen huyền bí, tạo cảm giác sạch sẽ trang trọng và bí ẩn.\r\n\r\nCủ sạc có dây khá chuẩn, độ dài hợp lý 1.8m để tiện lợi hơn khi cắm sạc thiết bị với khu vực nguồn xa. Đồng thời không quá dài, chống rối khi cuộn sạc lại cất.",
+        "categoryId": 23,
+        "urlRewriteName": "cu-sac-samsung-type-c-45w-kem-cap-c-c-5a",
+        "name": "Củ sạc Samsung Type-C 45W kèm cáp C-C 5A",
+        "id": 148,
+        "_id": "6384d327cb78bc10847a6147"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384d5eacb78bc10847a614d"
+  },
+  "id": 64,
+  "name": "Nguyễn Văn Đông",
+  "email": "vandong.2001@gmail.com",
+  "phone": "0297218472",
+  "msg": "Giao hàng khẩn cấp",
+  "total": 630000,
+  "status": 2,
+  "ship": "Số 22, tổ dân phố số 5, Phú Mỹ, quận Nam Từ Liêm, Hà Nội",
+  "payment": "TM",
+  "isDeleted": false,
+  "details": [
+    {
+      "price": 630000,
+      "quantity": 1,
+      "item": {
+        "__v": 0,
+        "photo": "1669649801304_sanpham21.png",
+        "salePrice": 630000,
+        "isDeleted": false,
+        "sale": 30,
+        "price": 900000,
+        "description": "Sạc cáp Mophie Magsafe Snap Plus – Sạc tiện lợi với phong cách tối giản\r\nSạc cáp Mophie Magsafe Snap Plus đem đến cho người dùng trải nghiệm cao cấp, đầy đủ các tiện ích giúp quá trình sạc pin đơn giản hơn bao giờ hết. Cùng tìm hiểu chi tiết sản phẩm sạc không dây này xem có điều gì đặc biệt nhé!\r\n\r\nThiết kế siêu mỏng, công suất sạc 15W\r\nSạc cáp Mophie Magsafe Snap Plus có thiết kế mỏng nhẹ, kích thước 55mm x 55mm x 55mm, giúp bạn dễ dàng mang đi mọi nơi. Bề mặt sạc trơn láng chống bám vân tay, bám bụi hiệu quả, vệ sinh cũng rất dễ dàng.",
+        "categoryId": 23,
+        "urlRewriteName": "mieng-sac-mophie-snap-plus-magsafe-15w",
+        "name": "Miếng sạc Mophie Snap Plus MagSafe 15W",
+        "id": 150,
+        "_id": "6384d589cb78bc10847a614c"
+      }
+    }
+  ],
+  "__v": 0
+}]

@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "5f8b0dc2e95f47cdc246dc0a"
+  },
+  "id": 1,
+  "fullname": "Admin",
+  "email": "admin@gmail.com",
+  "password": "$2a$16$7DNIJm6ye79xEyWDVwd88uuxZAt4LMkJ9heNIB7PD8zSlADMKFkPu",
+  "roles": [
+    "ADMIN",
+    "STOCKER"
+  ],
+  "photo": "1669515018763_nuoc-hoa-7.JPG"
+},{
+  "_id": {
+    "$oid": "6384b71bcb78bc10847a612d"
+  },
+  "id": 23,
+  "fullname": "Nguyễn Thái Dương",
+  "email": "duong@gmail.com",
+  "password": "$2a$16$f4OyuAbFxZLgo3J6BW1RyOGXcKcwKcwS25Vd7wgoUWwh5BIA06PAW",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0,
+  "isDeleted": true
+},{
+  "_id": {
+    "$oid": "6384bcf3cb78bc10847a612e"
+  },
+  "id": 24,
+  "fullname": "admin2",
+  "email": "admin2@gmail.com",
+  "password": "$2a$16$2h9sKzTGweU6iEEn47M5weJ0ECzDQ7bAf.NThe9ykkyhPRuAPEWei",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6384c1f7cb78bc10847a612f"
+  },
+  "id": 25,
+  "fullname": "Vũ Tú Trân",
+  "email": "admin345@gmail.com",
+  "password": "$2a$16$R6OUHY5VJYnoH7wK1/XwFugXUIFDEAuFYFvFzwg6RJUEdxgrxA002",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+}]
